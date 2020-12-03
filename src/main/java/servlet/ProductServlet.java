@@ -34,7 +34,8 @@ public class ProductServlet implements Servlet {
             sb.append("<span>" + "id: ")
                     .append(product.getId())
                     .append(" title: ")
-                    .append(product.getTitle() + (i + 1))
+                    .append(product.getTitle())
+                    .append(i + 1)
                     .append(" cost: ")
                     .append(product.getCost())
                     .append("</span><br>");
